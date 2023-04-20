@@ -1,0 +1,24 @@
+sum:-
+let a = 40;
+let b = 60;
+ let sum = a+b;
+console.log(sum);
+
+Multiply:-
+let a = 40;
+let b = 60;
+let multiply= a*b;
+console.log(multiply);
+
+Subtract:-
+let a = 60;
+let b = 40;
+let subtract= a-b;
+console.log(subtract);
+
+Modulus:-
+let a = 60;
+let b = 40;
+let modulus = a%b;
+console.log(modulus);
+
