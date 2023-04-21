@@ -1,12 +1,12 @@
-function checknumber(a){
+function checkNumber(value){
 
- for(let i=0;i<a.length;i++) 
+ for(let i=0;i<value.length;i++) 
  
- if(a[i]%2==0)
+ if(value[i]%2==0)
  console.log("even")
  else{
  console.log("odd")
  }
 }
 
-checknumber([10,20,30,40,51,60,70,80,90,100]);
+checkNumber([10,20,30,40,51,60,70,80,90,100]);
