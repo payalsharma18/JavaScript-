@@ -3,7 +3,7 @@ console.log(array[5]);
 
 /Using Function:-
 
-function showelement(b){
-console.log(b[5]);
+function showElement(param){
+console.log(param[5]);
 }
-showelement([10,20,70,60,50,30,80,10]);
+showElement([10,20,70,60,50,30,80,10]);
