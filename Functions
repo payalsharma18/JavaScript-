@@ -23,3 +23,15 @@ return arr;
 }
 const b = fibs(7);
 console.log(b);
+
+OR
+
+function fibo(n){
+let  arr  = [0,1];
+
+for(let i= 1;i<n;i++){
+arr.push(arr[i] + arr[i-1]);
+}
+return arr;
+}
+console.log(fibo(10));
