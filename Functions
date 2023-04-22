@@ -1,0 +1,25 @@
+/Fibonacci Series/
+
+function fibs(n){
+let arr = [];
+if(n==1){
+arr.push(0);
+return arr;
+}
+if(n==2){
+arr.push(0);
+arr.push(1);
+return arr;
+}
+if(n>2){
+arr.push(0);
+arr.push(1);
+
+for(let i = 1;i<n;i++){
+arr.push(arr[i] + arr[i-1]);
+}
+return arr;
+}
+}
+const b = fibs(7);
+console.log(b);
